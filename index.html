@@ -1,0 +1,330 @@
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   LIN SKINCARE - Cremas de Cuidado de la Piel
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Pacifico&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Montserrat', sans-serif;
+    }
+   h1, h2, h3 {
+      font-family: 'Pacifico', cursive;
+    }
+  </style>
+ </head>
+ <body class="bg-pink-50 text-pink-900">
+  <header class="bg-pink-200 shadow-md sticky top-0 z-50">
+   <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+    <a class="text-3xl font-bold text-pink-600 tracking-widest drop-shadow-lg" href="#">
+     LIN SKINCARE
+    </a>
+    <nav class="hidden md:flex space-x-8 text-pink-700 font-semibold">
+     <a class="hover:text-pink-400 transition duration-300" href="#productos">
+      Productos
+     </a>
+     <a class="hover:text-pink-400 transition duration-300" href="#nosotros">
+      Nosotros
+     </a>
+     <a class="hover:text-pink-400 transition duration-300" href="#testimonios">
+      Testimonios
+     </a>
+     <a class="hover:text-pink-400 transition duration-300" href="#contacto">
+      Contacto
+     </a>
+    </nav>
+    <div class="md:hidden">
+     <button aria-label="Abrir menú" class="text-pink-700 focus:outline-none" id="menu-btn">
+      <i class="fas fa-bars fa-2x">
+      </i>
+     </button>
+    </div>
+   </div>
+   <nav class="hidden bg-pink-200 shadow-md md:hidden" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-pink-300 hover:bg-pink-100 transition duration-300" href="#productos">
+     Productos
+    </a>
+    <a class="block px-6 py-3 border-b border-pink-300 hover:bg-pink-100 transition duration-300" href="#nosotros">
+     Nosotros
+    </a>
+    <a class="block px-6 py-3 border-b border-pink-300 hover:bg-pink-100 transition duration-300" href="#testimonios">
+     Testimonios
+    </a>
+    <a class="block px-6 py-3 hover:bg-pink-100 transition duration-300" href="#contacto">
+     Contacto
+    </a>
+   </nav>
+  </header>
+  <main>
+   <!-- Hero Section -->
+   <section class="bg-gradient-to-r from-pink-400 via-pink-300 to-pink-200 text-pink-900">
+    <div class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center md:space-x-12">
+     <div class="md:w-1/2 text-center md:text-left">
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 drop-shadow-md">
+       Cuida tu piel con
+       <span class="text-pink-600">
+        LIN SKINCARE
+       </span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 font-semibold drop-shadow-sm">
+       Cremas naturales y adorables para proteger y nutrir tu piel todos los días.
+      </p>
+      <a class="inline-block bg-pink-600 text-pink-50 font-bold px-10 py-4 rounded-3xl shadow-lg hover:bg-pink-700 transition duration-300" href="#productos">
+       Ver Productos
+      </a>
+     </div>
+     <div class="md:w-1/2 mt-10 md:mt-0">
+      <img alt="Frasco kawaii de crema de skincare rosa con carita sonriente y flores pastel alrededor, sobre fondo blanco" class="rounded-3xl shadow-2xl mx-auto" height="400" src="https://storage.googleapis.com/a1aa/image/3f10fa8f-66ba-4af4-b0f5-819b747522bd.jpg" width="600"/>
+     </div>
+    </div>
+   </section>
+   <!-- Productos Section -->
+   <section class="container mx-auto px-6 py-16" id="productos">
+    <h2 class="text-4xl font-extrabold text-pink-600 text-center mb-12 drop-shadow-md">
+     Nuestros Productos
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+     <article class="bg-pink-100 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 border-4 border-pink-300">
+      <img alt="Frasco kawaii rosa de crema hidratante con extracto de aloe vera, con carita sonriente y fondo blanco" class="w-full h-64 object-cover rounded-t-3xl" height="300" src="https://storage.googleapis.com/a1aa/image/4626e048-eb48-499c-5fc6-5f5b9edccdb0.jpg" width="400"/>
+      <div class="p-6">
+       <h3 class="text-2xl font-bold mb-2 text-pink-700 drop-shadow-sm">
+        Crema Hidratante Aloe Vera
+       </h3>
+       <p class="text-pink-800 mb-4 font-medium">
+        Hidratación profunda con extractos naturales de aloe vera para una piel suave y fresca.
+       </p>
+       <p class="text-pink-700 font-extrabold text-xl mb-4">
+        $25.00
+       </p>
+       <a href="https://wa.me/5211234567890?text=Hola%20LIN%20SKINCARE,%20quiero%20comprar%20la%20Crema%20Hidratante%20Aloe%20Vera" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-pink-600 text-pink-50 py-3 rounded-3xl hover:bg-pink-700 transition duration-300 font-semibold shadow-md">
+        <i class="fab fa-whatsapp mr-2"></i> Comprar en WhatsApp
+       </a>
+      </div>
+     </article>
+     <article class="bg-pink-100 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 border-4 border-pink-300">
+      <img alt="Frasco kawaii rosa de crema antiarrugas con vitamina C, con carita sonriente y fondo blanco" class="w-full h-64 object-cover rounded-t-3xl" height="300" src="https://storage.googleapis.com/a1aa/image/a2492b5d-c05d-49aa-3c3c-1ab1de62f44a.jpg" width="400"/>
+      <div class="p-6">
+       <h3 class="text-2xl font-bold mb-2 text-pink-700 drop-shadow-sm">
+        Crema Antiarrugas Vitamina C
+       </h3>
+       <p class="text-pink-800 mb-4 font-medium">
+        Reduce líneas de expresión y revitaliza la piel con vitamina C antioxidante.
+       </p>
+       <p class="text-pink-700 font-extrabold text-xl mb-4">
+        $30.00
+       </p>
+       <a href="https://wa.me/5211234567890?text=Hola%20LIN%20SKINCARE,%20quiero%20comprar%20la%20Crema%20Antiarrugas%20Vitamina%20C" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-pink-600 text-pink-50 py-3 rounded-3xl hover:bg-pink-700 transition duration-300 font-semibold shadow-md">
+        <i class="fab fa-whatsapp mr-2"></i> Comprar en WhatsApp
+       </a>
+      </div>
+     </article>
+     <article class="bg-pink-100 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 border-4 border-pink-300">
+      <img alt="Frasco kawaii rosa de crema nutritiva con aceite de argán, con carita sonriente y fondo blanco" class="w-full h-64 object-cover rounded-t-3xl" height="300" src="https://storage.googleapis.com/a1aa/image/2aa17658-3433-4818-3a86-b9c82a75014f.jpg" width="400"/>
+      <div class="p-6">
+       <h3 class="text-2xl font-bold mb-2 text-pink-700 drop-shadow-sm">
+        Crema Nutritiva Aceite de Argán
+       </h3>
+       <p class="text-pink-800 mb-4 font-medium">
+        Nutre intensamente la piel seca con aceite de argán puro y natural.
+       </p>
+       <p class="text-pink-700 font-extrabold text-xl mb-4">
+        $28.00
+       </p>
+       <a href="https://wa.me/5211234567890?text=Hola%20LIN%20SKINCARE,%20quiero%20comprar%20la%20Crema%20Nutritiva%20Aceite%20de%20Argán" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-pink-600 text-pink-50 py-3 rounded-3xl hover:bg-pink-700 transition duration-300 font-semibold shadow-md">
+        <i class="fab fa-whatsapp mr-2"></i> Comprar en WhatsApp
+       </a>
+      </div>
+     </article>
+     <article class="bg-pink-100 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 border-4 border-pink-300">
+      <img alt="Frasco kawaii rosa de crema protector solar con SPF 50, con carita sonriente y fondo blanco" class="w-full h-64 object-cover rounded-t-3xl" height="300" src="https://storage.googleapis.com/a1aa/image/00f2e7af-6665-432f-3252-e58a588ea211.jpg" width="400"/>
+      <div class="p-6">
+       <h3 class="text-2xl font-bold mb-2 text-pink-700 drop-shadow-sm">
+        Protector Solar SPF 50
+       </h3>
+       <p class="text-pink-800 mb-4 font-medium">
+        Protección alta contra rayos UV para cuidar tu piel durante todo el día.
+       </p>
+       <p class="text-pink-700 font-extrabold text-xl mb-4">
+        $22.00
+       </p>
+       <a href="https://wa.me/5211234567890?text=Hola%20LIN%20SKINCARE,%20quiero%20comprar%20el%20Protector%20Solar%20SPF%2050" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-pink-600 text-pink-50 py-3 rounded-3xl hover:bg-pink-700 transition duration-300 font-semibold shadow-md">
+        <i class="fab fa-whatsapp mr-2"></i> Comprar en WhatsApp
+       </a>
+      </div>
+     </article>
+     <article class="bg-pink-100 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 border-4 border-pink-300">
+      <img alt="Frasco kawaii rosa de crema reparadora de noche con colágeno, con carita sonriente y fondo blanco" class="w-full h-64 object-cover rounded-t-3xl" height="300" src="https://storage.googleapis.com/a1aa/image/0e7d8d54-46c7-45fd-a0ea-73ff53f61479.jpg" width="400"/>
+      <div class="p-6">
+       <h3 class="text-2xl font-bold mb-2 text-pink-700 drop-shadow-sm">
+        Crema Reparadora de Noche
+       </h3>
+       <p class="text-pink-800 mb-4 font-medium">
+        Regenera y repara la piel mientras duermes con colágeno y péptidos.
+       </p>
+       <p class="text-pink-700 font-extrabold text-xl mb-4">
+        $35.00
+       </p>
+       <a href="https://wa.me/5211234567890?text=Hola%20LIN%20SKINCARE,%20quiero%20comprar%20la%20Crema%20Reparadora%20de%20Noche" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-pink-600 text-pink-50 py-3 rounded-3xl hover:bg-pink-700 transition duration-300 font-semibold shadow-md">
+        <i class="fab fa-whatsapp mr-2"></i> Comprar en WhatsApp
+       </a>
+      </div>
+     </article>
+     <article class="bg-pink-100 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 border-4 border-pink-300">
+      <img alt="Frasco kawaii rosa de crema ligera para piel sensible, con carita sonriente y fondo blanco" class="w-full h-64 object-cover rounded-t-3xl" height="300" src="https://storage.googleapis.com/a1aa/image/5ccae04c-3fd5-4358-b156-8efac6631902.jpg" width="400"/>
+      <div class="p-6">
+       <h3 class="text-2xl font-bold mb-2 text-pink-700 drop-shadow-sm">
+        Crema Ligera para Piel Sensible
+       </h3>
+       <p class="text-pink-800 mb-4 font-medium">
+        Fórmula suave y calmante para pieles sensibles y delicadas.
+       </p>
+       <p class="text-pink-700 font-extrabold text-xl mb-4">
+        $24.00
+       </p>
+       <a href="https://wa.me/5211234567890?text=Hola%20LIN%20SKINCARE,%20quiero%20comprar%20la%20Crema%20Ligera%20para%20Piel%20Sensible" target="_blank" rel="noopener noreferrer" class="w-full block text-center bg-pink-600 text-pink-50 py-3 rounded-3xl hover:bg-pink-700 transition duration-300 font-semibold shadow-md">
+        <i class="fab fa-whatsapp mr-2"></i> Comprar en WhatsApp
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Nosotros Section -->
+   <section class="bg-pink-100 py-16" id="nosotros">
+    <div class="container mx-auto px-6 max-w-5xl text-center">
+     <h2 class="text-4xl font-extrabold text-pink-600 mb-8 drop-shadow-md">
+      Sobre LIN SKINCARE
+     </h2>
+     <p class="text-pink-700 text-lg leading-relaxed mb-6 font-semibold">
+      En LIN SKINCARE nos apasiona cuidar la piel con productos naturales, efectivos y adorables. Nuestra misión es ofrecer cremas que nutran, protejan y realcen la belleza natural de tu piel, utilizando ingredientes de la más alta calidad y respetando el medio ambiente.
+     </p>
+     <p class="text-pink-700 text-lg leading-relaxed font-semibold">
+      Cada producto es desarrollado con mucho amor y cuidado, pensando en las necesidades reales de tu piel. ¡Descubre la diferencia LIN SKINCARE y siente la confianza de una piel saludable y radiante!
+     </p>
+    </div>
+   </section>
+   <!-- Testimonios Section -->
+   <section class="bg-pink-50 py-16" id="testimonios">
+    <div class="container mx-auto px-6 max-w-6xl">
+     <h2 class="text-4xl font-extrabold text-pink-600 text-center mb-12 drop-shadow-md">
+      Testimonios
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <blockquote class="bg-pink-200 p-8 rounded-3xl shadow-lg border-4 border-pink-300">
+       <p class="text-pink-900 italic mb-6 font-semibold drop-shadow-sm">
+        "La crema hidratante de aloe vera es increíble. Mi piel nunca se había sentido tan suave y fresca. ¡Recomiendo LIN SKINCARE a todos!"
+       </p>
+       <div class="flex items-center space-x-4">
+        <img alt="Retrato kawaii de mujer feliz con piel radiante y sonrisa natural, estilo pastel" class="w-14 h-14 rounded-full object-cover border-2 border-pink-400" height="60" src="https://storage.googleapis.com/a1aa/image/70d65105-f48c-4ddf-3d88-3c97a8c6821a.jpg" width="60"/>
+        <div>
+         <p class="font-bold text-pink-700 drop-shadow-sm">
+          María López
+         </p>
+         <p class="text-pink-600 text-sm font-semibold">
+          Cliente Satisfecha
+         </p>
+        </div>
+       </div>
+      </blockquote>
+      <blockquote class="bg-pink-200 p-8 rounded-3xl shadow-lg border-4 border-pink-300">
+       <p class="text-pink-900 italic mb-6 font-semibold drop-shadow-sm">
+        "El protector solar SPF 50 es ligero y no deja sensación grasosa. Perfecto para mi piel sensible y para usar todos los días."
+       </p>
+       <div class="flex items-center space-x-4">
+        <img alt="Retrato kawaii de hombre con piel clara y sonrisa amable, estilo pastel" class="w-14 h-14 rounded-full object-cover border-2 border-pink-400" height="60" src="https://storage.googleapis.com/a1aa/image/3ae4dd6b-e349-4bdc-b6b0-5b4e80dcd2f3.jpg" width="60"/>
+        <div>
+         <p class="font-bold text-pink-700 drop-shadow-sm">
+          Carlos Martínez
+         </p>
+         <p class="text-pink-600 text-sm font-semibold">
+          Cliente Satisfecho
+         </p>
+        </div>
+       </div>
+      </blockquote>
+      <blockquote class="bg-pink-200 p-8 rounded-3xl shadow-lg border-4 border-pink-300">
+       <p class="text-pink-900 italic mb-6 font-semibold drop-shadow-sm">
+        "La crema reparadora de noche ha transformado mi piel. Se ve más firme y luminosa cada mañana. ¡Un producto imprescindible!"
+       </p>
+       <div class="flex items-center space-x-4">
+        <img alt="Retrato kawaii de mujer con piel suave y natural, mirada serena, estilo pastel" class="w-14 h-14 rounded-full object-cover border-2 border-pink-400" height="60" src="https://storage.googleapis.com/a1aa/image/ecb9d4b4-e6f8-4061-e9aa-59736cb794ea.jpg" width="60"/>
+        <div>
+         <p class="font-bold text-pink-700 drop-shadow-sm">
+          Ana Gómez
+         </p>
+         <p class="text-pink-600 text-sm font-semibold">
+          Cliente Satisfecha
+         </p>
+        </div>
+       </div>
+      </blockquote>
+     </div>
+    </div>
+   </section>
+   <!-- Contacto Section -->
+   <section class="bg-pink-100 py-16" id="contacto">
+    <div class="container mx-auto px-6 max-w-3xl">
+     <h2 class="text-4xl font-extrabold text-pink-600 mb-8 text-center drop-shadow-md">
+      Contacto
+     </h2>
+     <form action="#" class="bg-pink-50 p-8 rounded-3xl shadow-lg border-4 border-pink-300" method="POST">
+      <div class="mb-6">
+       <label class="block mb-2 font-bold text-pink-700" for="nombre">
+        Nombre
+       </label>
+       <input class="w-full px-5 py-4 rounded-3xl border-2 border-pink-300 focus:outline-none focus:ring-4 focus:ring-pink-400 focus:border-pink-500 transition duration-300 font-semibold text-pink-900" id="nombre" name="nombre" placeholder="Tu nombre completo" required="" type="text"/>
+      </div>
+      <div class="mb-6">
+       <label class="block mb-2 font-bold text-pink-700" for="email">
+        Correo Electrónico
+       </label>
+       <input class="w-full px-5 py-4 rounded-3xl border-2 border-pink-300 focus:outline-none focus:ring-4 focus:ring-pink-400 focus:border-pink-500 transition duration-300 font-semibold text-pink-900" id="email" name="email" placeholder="tuemail@ejemplo.com" required="" type="email"/>
+      </div>
+      <div class="mb-6">
+       <label class="block mb-2 font-bold text-pink-700" for="mensaje">
+        Mensaje
+       </label>
+       <textarea class="w-full px-5 py-4 rounded-3xl border-2 border-pink-300 focus:outline-none focus:ring-4 focus:ring-pink-400 focus:border-pink-500 transition duration-300 font-semibold text-pink-900" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required="" rows="5"></textarea>
+      </div>
+      <button class="w-full bg-pink-600 text-pink-50 font-bold py-4 rounded-3xl hover:bg-pink-700 transition duration-300 shadow-md" type="submit">
+       Enviar Mensaje
+      </button>
+     </form>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-pink-600 text-pink-100 py-8 mt-16">
+   <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+    <p class="text-center md:text-left text-sm font-semibold drop-shadow-sm">
+     © 2024 LIN SKINCARE. Todos los derechos reservados.
+    </p>
+    <div class="flex space-x-6 mt-4 md:mt-0">
+     <a aria-label="Facebook" class="hover:text-pink-300 transition duration-300" href="#">
+      <i class="fab fa-facebook fa-lg">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-pink-300 transition duration-300" href="#">
+      <i class="fab fa-instagram fa-lg">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-pink-300 transition duration-300" href="#">
+      <i class="fab fa-twitter fa-lg">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
